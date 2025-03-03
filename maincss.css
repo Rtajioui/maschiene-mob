@@ -119,12 +119,12 @@ header {
 }
 
 .video-teil video {
-  width: 80%; /* Reduziert die Größe der Videos */
-  max-width: 100%; /* Verhindert, dass das Video über die maximalen Bildschirmgrößen hinausgeht */
+  width: 45%; /* Reduziert die Größe der Videos */
+  max-width: 80%; /* Verhindert, dass das Video über die maximalen Bildschirmgrößen hinausgeht */
   height: auto; 
   transition: all 0.3s ease;
   border-radius: 15px;
-  margin-top: 1px;
+  margin-top: 50px;
 }
 
 .video-teil.centered video {
@@ -136,13 +136,13 @@ header {
   color: #fff;
   cursor: pointer;
   padding: 10px;
-  width: 50%;
+  width: 25%;
   text-align: left;
   outline: none;
   transition: background-color 0.3s;
-  border-radius: 5px;
-  margin-top: 5px;
-  margin-bottom: 50px;
+  border-radius: 25px;
+  margin-top: 70px;
+  margin-bottom: 100px;
 }
 
 .accordion-video:hover, .accordion-video.active {
@@ -155,7 +155,7 @@ header {
   max-height: 0;
   transition: max-height 0.3s ease, padding 0.3s ease;
   margin-top: 5px;
-  width: 100%;
+  width: 50%;
   text-align: left;
 }
 
@@ -196,7 +196,7 @@ header {
 }
 
 /* Mobile Optimierungen */
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   .titel {
       font-size: 1.5em; /* Verkleinert den Titel auf mobilen Geräten */
   }
